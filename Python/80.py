@@ -20,7 +20,6 @@ for i in range(1,H+1):
 ans = 0
 for i in range(1,1+H):
     for j in range(1,1+W):
-        con = box[i][j]
         for k in range(i):
             for l in range(j):
                 con = box[i][j]
