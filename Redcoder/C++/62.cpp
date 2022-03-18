@@ -28,12 +28,13 @@ int main() {
         } 
     }
 
-    int box2[10]{0,0,0,0,0,0,0,0,0,0};
+    vector<int> box2(10,0);
     rep(i,0,H) {
         rep(j,0,W){
             int a;
             cin >> a;
-            ++box2[a];
+            if (a == -1) continue;
+            box2[a] += 1;
         }
     }
     int ans = 0;
