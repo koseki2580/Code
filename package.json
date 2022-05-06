@@ -1,7 +1,0 @@
-{
-  "dependencies": {
-    "@cmfcmf/docusaurus-search-local": "^0.10.0",
-    "mdx-mermaid": "^1.2.2",
-    "mermaid": "^9.0.1"
-  }
-}
